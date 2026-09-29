@@ -6,8 +6,8 @@ import PaqueteLectura.GeneradorAleatorio;
 public class Parcial_TN_2024 {
 
     public static void main(String[] args) {
-        Medico m = new Medico("neurologo", 123, "lotoki", "Adolfo", 666, 0303456);
-        Consultorio c = new Consultorio("DR chapatin", "AV siempreViva", m, 10);
+        Medico m = new Medico("neurologo", 123, "lhd", "Adolfo", 666, 0303456);
+        Consultorio c = new Consultorio("DR chn", "AV ", m, 10);
         Paciente p;
         
         GeneradorAleatorio.iniciar();;
